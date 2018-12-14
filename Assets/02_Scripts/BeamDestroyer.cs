@@ -6,7 +6,7 @@ public class BeamDestroyer : MonoBehaviour {
 
 
     private AudioSource source;
-    public AudioClip clipPhaseOut;
+    public AudioClip phaseOutClip;
 
     // Use this for initialization
     void Start () {
@@ -29,7 +29,7 @@ public class BeamDestroyer : MonoBehaviour {
             if (!script.destroyME)
             {
                 source.pitch = 1 + GameControllerScript.comboMulti * 0.1f;
-                source.PlayOneShot(clipPhaseOut, 0.8f);
+                source.PlayOneShot(phaseOutClip, 0.8f);
             }
             script.destroyME = true;
         }

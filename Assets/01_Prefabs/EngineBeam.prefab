@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e597126c50c42ec47aa407bfcc360df4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipPhaseOut: {fileID: 8300000, guid: 58fad6aed68787f48963746d451566a7, type: 3}
+  phaseOutClip: {fileID: 8300000, guid: 58fad6aed68787f48963746d451566a7, type: 3}
 --- !u!212 &212772095374781448
 SpriteRenderer:
   m_ObjectHideFlags: 1

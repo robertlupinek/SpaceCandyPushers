@@ -25,9 +25,7 @@ public class Move : MonoBehaviour
     private AudioSource source;
     public AudioClip clipBoink;
 
-    //Debug text
-    private string printText;
-    public Text myText;
+
 
     // This function is called just one time by Unity the moment the game loads
     private void Awake()
@@ -83,8 +81,6 @@ public class Move : MonoBehaviour
     void Update()
     { 
     
-        float thex = transform.position.x;
-        printText = thex.ToString();
         //myText.text = printText;
 
         if (Input.GetKey(inputK["key_left"]) || Input.GetAxis(inputJ["Horizontal"]) < 0)

@@ -6,9 +6,10 @@ public class MoveableBlock : MonoBehaviour {
 
     //Should the destroy animations start or not.
     public bool destroyME;
-    //Score 
-    //Sound setup
-    public AudioClip clipBoxHit;
+    //Score
+    
+    //Audio setup
+    public AudioClip boxHitClip;
     public float velToVol = 0.03F;
     public float maxVol = 0.05f;
     private float timer = 0.0f;
@@ -17,23 +18,23 @@ public class MoveableBlock : MonoBehaviour {
     //Set to true if you already executed the death steps
     private bool dieOnce = false;
 
-    private string printText = "A";
-
     // Use this for initialization
     void Start () {
         script = GetComponent<_2dxFX_NewTeleportation2>();
-        source = GetComponent<AudioSource>();
-        
+        source = GetComponent<AudioSource>(); 
     }
 
     //When object collides with the "Solid" or non trigger collider
     void OnCollisionEnter2D(Collision2D other)
     {
-        //Play sound if velocity is high
+        //Set the sound volume based on relative velocity on impact.
+        //Volume is damped by the veToVol variable.
         float hitVol = other.relativeVelocity.magnitude * velToVol;
+        //Only play the hit sound if the volume registers above the maxVol value.
+        //This prevents unecessary or inaudible sounds from playing.
         if ( hitVol > maxVol)
         {
-            source.PlayOneShot(clipBoxHit, hitVol);
+            source.PlayOneShot(boxHitClip, hitVol);
         }
         
     }

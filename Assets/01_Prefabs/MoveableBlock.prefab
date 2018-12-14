@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyME: 0
-  clipBoxHit: {fileID: 8300000, guid: 8c4d5e00d05db414d80160dda346c0c2, type: 3}
+  boxHitClip: {fileID: 8300000, guid: 8c4d5e00d05db414d80160dda346c0c2, type: 3}
   velToVol: 0.08
   maxVol: 0.12
 --- !u!114 &114643153114954186
