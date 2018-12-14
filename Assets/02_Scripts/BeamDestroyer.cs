@@ -28,7 +28,7 @@ public class BeamDestroyer : MonoBehaviour {
             //Play sound only if destroyME hasn't been set yet :)
             if (!script.destroyME)
             {
-                source.pitch = 1 + GameControllerScript.comboMulti * 0.1f;
+                source.pitch = 1 + Globals.comboMulti * 0.1f;
                 source.PlayOneShot(phaseOutClip, 0.8f);
             }
             script.destroyME = true;

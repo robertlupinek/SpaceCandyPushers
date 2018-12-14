@@ -48,9 +48,9 @@ public class MoveableBlock : MonoBehaviour {
             
             if (!dieOnce)
             {
-                GameControllerScript.score += 1 * GameControllerScript.comboMulti;
-                GameControllerScript.comboMulti += 1;
-                GameControllerScript.comboTimer = 2f;
+                Globals.score += 1 * Globals.comboMulti;
+                Globals.comboMulti += 1;
+                Globals.comboTimer = 2f;
             }
             dieOnce = true;
             timer += Time.deltaTime;
