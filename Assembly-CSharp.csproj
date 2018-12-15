@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{2E4693FC-A6D7-36AB-38C6-B4C88EB1D285}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_14;UNITY_2018_2;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_SPATIALTRACKING;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityVersion>2018.2.14f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.14f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.14f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\02_Scripts\BeamDestroyer.cs" />
+    <Compile Include="Assets\02_Scripts\Controllers\GameControllerScript.cs" />
+    <Compile Include="Assets\02_Scripts\Controllers\Globals.cs" />
+    <Compile Include="Assets\02_Scripts\Controllers\InBetweenScene.cs" />
+    <Compile Include="Assets\02_Scripts\FadeInFadeOut.cs" />
+    <Compile Include="Assets\02_Scripts\MoveableBlock.cs" />
+    <Compile Include="Assets\02_Scripts\Player\Move.cs" />
+    <Compile Include="Assets\02_Scripts\SortingLayerExposer.cs" />
+    <Compile Include="Assets\2DxFX\ExtraShaders\Examples\_2DC_ArrowSelection.cs" />
+    <Compile Include="Assets\2DxFX\ExtraShaders\Examples\_2DC_ShaderLerpDemo.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2DxFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_4Gradients.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Additive.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_BlackHole.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Blood.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Blur.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_BlurHQ.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_BlurHQX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_BurnFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_BurningFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Cartoon.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_CircleFade.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Clipping.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Color.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_ColorChange.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_ColorRGB.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_CompressionFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_DesintegrationFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_DestroyedFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Distortion.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Distortion_Additive.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_EdgeColor.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_EnergyBar.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Fire.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_FireAdditive.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Flame.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_FlameAdditive.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Frozen.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Ghost.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GoldenFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GoldFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GrassFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GrassMultiFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GrayScale.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Heat.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Hologram.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Hologram2.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Hologram3.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_HSV.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Ice.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_IcedFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Jelly.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_JellyAutoMove.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Lightning.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_LightningBolt.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Liquid.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Liquify.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_MetalFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Mystic_Distortion.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Mystic_Distortion_Additive.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Negative.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_NewTeleportation.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_NewTeleportation2.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Noise.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_NoiseAnimated.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Offset.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Outline.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pattern.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_PatternAdditive.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pixel.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pixel8bitsBW.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pixel8bitsC64.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pixel8bitsGB.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_PixelDie.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_PlasmaRainbow.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_PlasmaRainbow_Color.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_PlasmaShield.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Posterize.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_SandFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Sepia.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Sharpen.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Shiny_Reflect.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_SkyCloud.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Slim.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Smoke.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_StoneFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Teleportation.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Threshold.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Twist.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_WaterAndBackground.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_WaterAndBackgroundDeluxe.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Waterfall.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Wave.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\_2dxFX_WoodFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_4Gradients.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_BlackHole.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Blood.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Blur.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_BurningFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Cartoon.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_CircleFade.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Clipping.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Color.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_ColorChange.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_ColorRGB.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_CompressionFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_DesintegrationFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_DestroyedFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Distortion.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_EdgeColor.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_EnergyBar.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Fire.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Flame.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Frozen.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Ghost.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_GoldenFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_GoldFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_GrassFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_GrassMultiFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_GrayScale.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Heat.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Hologram.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Hologram2.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Hologram3.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_HSV.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Ice.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_IcedFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Jelly.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_JellyAutoMove.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Lightning.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_LightningBolt.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Liquid.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Liquify.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_MetalFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Mystic_Distortion.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Negative.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Noise.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_NoiseAnimated.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Normal.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Offset.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Outline.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Pattern.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Pixel.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Pixel8bitsBW.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Pixel8bitsC64.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Pixel8bitsGB.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_PixelDie.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_PlasmaRainbow.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_PlasmaShield.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Posterize.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_SandFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Sepia.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Sharpen.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Shiny_Reflect.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_SkyCloud.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Slim.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Smoke.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_StoneFX.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Threshold.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Twist.cs" />
+    <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_WoodFX.cs" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_GrayScale.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ShinyFX.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_PixelDie.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\LiquidWave.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Outline.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Smoke.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Shake.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Ice.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Distortion.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\HologramScanLine.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\BreakingGlassFull.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Noise.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Vintage.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Fusion2Sprites.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Pattern.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorBrightness.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnFire.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Smoke.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\PixelExplosion.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_CircleFade.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_NoiseAnimated.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Sharpen.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_DestroyedFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\EmbossFull.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnFirePixel.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ShinyPixel.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Teleportation.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\DisolvePixel.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_GrassMultiFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Explode.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_SandFX.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_LightningBolt.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Pattern.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Posterize.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\DesintegrationPixel.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Liquify.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Shiny_Reflect.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\MotionBlurFast.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorOnly.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_BurnFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\BurnPixel.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Animated_PingPong.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\JpegCompressionStyle.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Offset.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorTint.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Lerp2sprites.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\InfiniteZoom.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Mystic_Distortion_Additive.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Flame.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\HologramParasiteTintAdditive.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\RoarDistortion.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Tilt_Left.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel8bitsGB.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_SkyCloud.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Threshold.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_EnergyBar.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Heat.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Outline.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\NoiseBlur_Vertical.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel8bitsBW.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Liquid.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\AlphaIntensity.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Animated_Movement.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Hologram2.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\CircleFade.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\CircleHole.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_ColorChange.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Cartoon.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_MetalFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Plasma.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel8bitsC64.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\HolographicTint.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Twist.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_StoneFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\PixelGravityDie.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_EdgeColor.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ThresholdSmooth.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\SymbioseDistortion.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_DestroyedFX.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_ColorChange.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_WoodFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\HolographicTintAdditive.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Glitch.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Mystic_Distortion.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_BurningFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\InsideDistortion.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Animated_Twist.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorHSV.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Threshold.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Liquid.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Twist.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_EnergyBar.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorHDR_Creation.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\RetroGB.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_SandFX.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Frozen.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Pixel.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\OutlineEmpty.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Shiny_Reflect.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_PatternAdditive.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_CircleFade.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_NewTeleportation2.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Heat.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Blur.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Perspective3D.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Negative.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_BlackHole.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_GoldenFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\NightVision.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Ghost.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorGrayScale.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Liquify.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Posterize.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_StoneFX.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_4Gradients.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Cartoon.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_WoodFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Zoom.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Pixel8bitsC64.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Fusion3Sprites.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Kaleidoscope.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_GoldenFX.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_BurningFX.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_NewTeleportation.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Hologram.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_GoldFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorNegative.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\BlurHQ.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorDarkness.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Slim.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_BlackHole.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnTransparent.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Hologram.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_CompressionFX.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_HSV.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_DesintegrationFX.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Blood.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Fire.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\LightGlow.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\SymbioseDistortionFix.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Additive.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\RetroEGA.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Fluo.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\FishEye.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_GoldFX.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_PixelDie.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_WaterAndBackgroundDeluxe.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\DisolveHDR.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_PlasmaRainbow.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Hologram2.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_PlasmaShield.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\RetroCGA2.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_GrassFX.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_FireAdditive.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Mystic_Distortion.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_LightningBolt.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_NoiseAnimated.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Tilt_Right.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Animated_Offset.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_4Gradients.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Automatic2spritesLerp.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_FlameAdditive.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Threshold.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Fire.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnMetal.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Slim.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\NoiseBlur_Horizontal.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Clipping.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Repeat.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_GrayScale.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Blood.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Additive.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_IcedFX.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Pixel8bitsGB.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Ice.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Lightning.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_PlasmaShield.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\PixelisationXY.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\CompressionTintAdditive.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\InnerGlow.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorRGB.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\AnimatedBurn.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Wave.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnLiquid.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\HologramParasite.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_EdgeColor.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Color.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_MetalFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Sharpness.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_HSV.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Hologram3.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Holographic.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Offset.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Offset.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\BlurHQPlus.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Ghost.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Jelly.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\GhostClipping.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnToInfinite.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_ColorRGB.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_BlurHQX.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Jelly.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Waterfall.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_GrassMultiFX.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_PlasmaRainbow_Color.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Color.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Flame.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Clipping.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_BlurHQ.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\DoodleDraw.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Outline.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Noise.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Frozen.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\RetroCGA.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Blur.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Distortion_Additive.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_ColorRGB.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Hologram3.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Sharpen.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Animated_PingPong_Rotation.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_IcedFX.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Negative.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Emboss.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_PlasmaRainbow.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\HologramParasiteTint.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnGold.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Distortion.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Lightning.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Material\txt.txt" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Sepia.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\BreakingMirror.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Fusion2SpritesAdditive.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Tilt_Down.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_SkyCloud.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Distortion.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_GrassFX.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Sepia.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_Twist.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Pixel8bitsBW.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Pinch.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Pixelisation.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_CompressionFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\HologramScanLineAdditive.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\HologramParasiteAdditive.shader" />
+    <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Normal.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Animated_Zoom.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\BreakingGlass.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Blur.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_WaterAndBackground.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\RetroC64.shader" />
+    <None Include="Assets\2DxFX\Resources\_2dxFX_DesintegrationFX.shader" />
+    <None Include="Assets\2DxFX\ExtraShaders\Shader\Burn.shader" />
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/lupinek/Documents/Projects/SpaceCandyPushers/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/lupinek/Documents/Projects/SpaceCandyPushers/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/lupinek/Documents/Projects/SpaceCandyPushers/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/lupinek/Documents/Projects/SpaceCandyPushers/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CloudWebServicesModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FacebookModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebGLModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/lupinek/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/lupinek/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
