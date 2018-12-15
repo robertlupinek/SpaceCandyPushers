@@ -7,8 +7,6 @@ using TMPro;
 
 public class GameControllerScript : MonoBehaviour {
 
-
-
     //Level Transition
     public GameObject transistionSprite;
 

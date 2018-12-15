@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 58581573721994838}
   - component: {fileID: 58874879745248348}
   - component: {fileID: 82826854828508276}
+  - component: {fileID: 114609424031566520}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -224,7 +225,25 @@ MonoBehaviour:
   myBullet: {fileID: 1758173947935490, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
   whichPlayer: 1
   clipBoink: {fileID: 8300000, guid: 8c4d5e00d05db414d80160dda346c0c2, type: 3}
-  myText: {fileID: 114926092232958686, guid: 29b336c0de7cedb47b13f0dac1e922c8, type: 2}
+--- !u!114 &114609424031566520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1779039844116208}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c210118d0d76476458332068d0564f99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ForceMaterial: {fileID: 0}
+  ActiveChange: 1
+  _Alpha: 1
+  Distortion: 1
+  Speed: 1
+  _ColorX: {r: 0.41960785, g: 0.59607846, b: 0.9372549, a: 0.4117647}
+  ShaderChange: 0
+  ActiveUpdate: 1
 --- !u!212 &212018837297329594
 SpriteRenderer:
   m_ObjectHideFlags: 1

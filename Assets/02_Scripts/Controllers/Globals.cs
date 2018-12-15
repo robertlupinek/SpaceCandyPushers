@@ -26,7 +26,7 @@ public class Globals : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        SceneManager.LoadScene("Level1Scene");
+        SceneManager.LoadScene("Level2Scene");
         //SceneManager.LoadScene("InBetweenScene");
 
         //Setup controllers
