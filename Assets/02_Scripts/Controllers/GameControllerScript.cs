@@ -41,7 +41,8 @@ public class GameControllerScript : MonoBehaviour {
     // Use this for initialization
     void Start () {
         //Setup times for each level
-        timers.Add("level1", 180);
+        timers.Add("level1", 300);
+        timers.Add("level2", 300);
         levelTimer = timers[Globals.currentLevel];
         //Set up the Audio source
         source = GetComponent<AudioSource>();

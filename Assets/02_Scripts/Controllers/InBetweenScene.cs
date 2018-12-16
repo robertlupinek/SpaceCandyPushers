@@ -41,7 +41,7 @@ public class InBetweenScene : MonoBehaviour {
             nextLevelTimer -= Time.deltaTime;
             if ( nextLevelTimer <= 0)
             {
-                SceneManager.LoadScene("Level1Scene");
+                SceneManager.LoadScene("Level2Scene");
             }
         }
 

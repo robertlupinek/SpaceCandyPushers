@@ -122,11 +122,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.24
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.26
+      value: -3.64
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.z
@@ -134,19 +134,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.007072285
+      value: -0.008417451
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.011127062
+      value: 0.010147673
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.13575578
+      value: 0.2594506
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.9906546
+      value: 0.9656664
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_RootOrder
@@ -173,7 +173,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 15.596001
+      value: 30.068
       objectReference: {fileID: 0}
     - target: {fileID: 1955771468635782, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_Name
@@ -185,11 +185,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.9760001
+      value: -1.233
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 1.153
+      value: 0.873
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
@@ -709,6 +709,39 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
   m_IsPrefabAsset: 0
+--- !u!21 &342955042
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 2DxFX/Standard/NoiseAnimated
+  m_Shader: {fileID: 4800000, guid: 7dff9a3a3bb403f428685b7b012d739a, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.417
+    - _ColorMask: 15
+    - _Distortion: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &343321719
 Prefab:
   m_ObjectHideFlags: 0
@@ -1239,11 +1272,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.22
+      value: -3.31
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.37
+      value: -2.46
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1411,7 +1444,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2028427055}
+      objectReference: {fileID: 1783341983}
     - target: {fileID: 4823845482707872, guid: 8ffb1b8d6c8e80b43a601f2a0d3edbf2, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -7.853
@@ -1423,6 +1456,40 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ffb1b8d6c8e80b43a601f2a0d3edbf2, type: 2}
   m_IsPrefabAsset: 0
+--- !u!21 &551434578
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 2DxFX/Standard/Hologram2
+  m_Shader: {fileID: 4800000, guid: e4902c6983700bb45857a32e3d6365e1, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0
+    - _ColorMask: 15
+    - _Distortion: 1
+    - _Size: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &640570204
 Prefab:
   m_ObjectHideFlags: 0
@@ -1495,6 +1562,94 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &700138670
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -6.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.67295355
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7396848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 212870507647076550, guid: 7e0a6f59afc7387458202d3e1e70092c,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 342955042}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalScale.x
+      value: -2.1234028
+      objectReference: {fileID: 0}
+    - target: {fileID: 114031980206463364, guid: 7e0a6f59afc7387458202d3e1e70092c,
+        type: 2}
+      propertyPath: vSpeed
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114985454284443962, guid: 7e0a6f59afc7387458202d3e1e70092c,
+        type: 2}
+      propertyPath: Noise
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114985454284443962, guid: 7e0a6f59afc7387458202d3e1e70092c,
+        type: 2}
+      propertyPath: _Alpha
+      value: 0.583
+      objectReference: {fileID: 0}
+    - target: {fileID: 1862856966685640, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_Name
+      value: SliderBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 8.784768
+      objectReference: {fileID: 0}
+    - target: {fileID: 114031980206463364, guid: 7e0a6f59afc7387458202d3e1e70092c,
+        type: 2}
+      propertyPath: vDir
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114031980206463364, guid: 7e0a6f59afc7387458202d3e1e70092c,
+        type: 2}
+      propertyPath: hDir
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 84.591
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &756850713
 Prefab:
@@ -1569,6 +1724,39 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
   m_IsPrefabAsset: 0
+--- !u!21 &760716329
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 2DxFX/Standard/NoiseAnimated
+  m_Shader: {fileID: 4800000, guid: 7dff9a3a3bb403f428685b7b012d739a, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.417
+    - _ColorMask: 15
+    - _Distortion: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &760768035
 Prefab:
   m_ObjectHideFlags: 0
@@ -1908,40 +2096,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
   m_IsPrefabAsset: 0
---- !u!21 &941792989
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 2DxFX/Standard/Hologram2
-  m_Shader: {fileID: 4800000, guid: e4902c6983700bb45857a32e3d6365e1, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 0
-    - _ColorMask: 15
-    - _Distortion: 1
-    - _Size: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &992306361
 Prefab:
   m_ObjectHideFlags: 0
@@ -2023,6 +2177,72 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
   m_IsPrefabAsset: 0
+--- !u!21 &993618910
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 2DxFX/Standard/NoiseAnimated
+  m_Shader: {fileID: 4800000, guid: 7dff9a3a3bb403f428685b7b012d739a, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.417
+    - _ColorMask: 15
+    - _Distortion: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1018015551
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 2DxFX/Standard/NoiseAnimated
+  m_Shader: {fileID: 4800000, guid: 7dff9a3a3bb403f428685b7b012d739a, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.417
+    - _ColorMask: 15
+    - _Distortion: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1042326739
 Prefab:
   m_ObjectHideFlags: 0
@@ -3337,6 +3557,40 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
   m_IsPrefabAsset: 0
+--- !u!21 &1783341983
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 2DxFX/Standard/Hologram2
+  m_Shader: {fileID: 4800000, guid: e4902c6983700bb45857a32e3d6365e1, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0
+    - _ColorMask: 15
+    - _Distortion: 1
+    - _Size: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1784583495
 Prefab:
   m_ObjectHideFlags: 0
@@ -3413,79 +3667,64 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5.33
+      value: -1.76
       objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.81
+      value: -3.81
       objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.02
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.0028607596
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.0075348117
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.11465982
+      value: 0.7098777
       objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.9933722
+      value: 0.7043249
       objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+    - target: {fileID: 212870507647076550, guid: 7e0a6f59afc7387458202d3e1e70092c,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 993618910}
+    - target: {fileID: 4687590925132608, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
       propertyPath: m_LocalScale.x
-      value: -13.200317
+      value: -5.0557213
       objectReference: {fileID: 0}
-    - target: {fileID: 212196426890391336, guid: ec5e52697273a8e48974c7c49f03c6c9,
+    - target: {fileID: 114031980206463364, guid: 7e0a6f59afc7387458202d3e1e70092c,
         type: 2}
-      propertyPath: m_Color.r
-      value: 0.13363296
+      propertyPath: vSpeed
+      value: 0.25
       objectReference: {fileID: 0}
-    - target: {fileID: 212196426890391336, guid: ec5e52697273a8e48974c7c49f03c6c9,
+    - target: {fileID: 114985454284443962, guid: 7e0a6f59afc7387458202d3e1e70092c,
         type: 2}
-      propertyPath: m_Color.g
-      value: 0.1981132
+      propertyPath: Noise
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 212196426890391336, guid: ec5e52697273a8e48974c7c49f03c6c9,
+    - target: {fileID: 114985454284443962, guid: 7e0a6f59afc7387458202d3e1e70092c,
         type: 2}
-      propertyPath: m_Color.b
-      value: 0.13626409
-      objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -13.165001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1955771468635782, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
-      propertyPath: m_Name
-      value: BlockerBlock (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.8290168
-      objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.425
-      objectReference: {fileID: 0}
-    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.82000005
+      propertyPath: _Alpha
+      value: 0.583
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: 7e0a6f59afc7387458202d3e1e70092c, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1917659816
 Prefab:
@@ -3710,40 +3949,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
   m_IsPrefabAsset: 0
---- !u!21 &2028427055
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 2DxFX/Standard/Hologram2
-  m_Shader: {fileID: 4800000, guid: e4902c6983700bb45857a32e3d6365e1, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 0
-    - _ColorMask: 15
-    - _Distortion: 1
-    - _Size: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &2030300583
 Prefab:
   m_ObjectHideFlags: 0
@@ -3834,31 +4039,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.817
+      value: -3.22
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.919
+      value: -1.71
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.005255415
+      value: -0.0051148003
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.0009544465
+      value: 0.0015392129
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.17868654
+      value: -0.28816348
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.9838916
+      value: 0.9575664
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_RootOrder
@@ -3866,11 +4071,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -20.588001
+      value: -33.498
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalScale.x
-      value: 2.463112
+      value: 12.616061
       objectReference: {fileID: 0}
     - target: {fileID: 212489201131621486, guid: f2c9dc57e1c636f43971432d84de2196,
         type: 2}
@@ -3897,11 +4102,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.573
+      value: -0.51000005
       objectReference: {fileID: 0}
     - target: {fileID: 4932073812186738, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.215
+      value: 0.33800003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}

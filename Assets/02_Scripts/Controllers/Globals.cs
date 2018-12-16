@@ -13,7 +13,7 @@ public class Globals : MonoBehaviour {
     public static float comboTimer;
 
     public static string printText = "score ";
-    public static string currentLevel = "level1";
+    public static string currentLevel = "level2";
 
     //Keyboard inputs dictionary
     public static Dictionary<string, KeyCode> inputK1 = new Dictionary<string, KeyCode>();
@@ -54,10 +54,14 @@ public class Globals : MonoBehaviour {
         inputJ2.Add("Vertical", "Vertical2");
         inputJ2.Add("action", "Fire2");
 
+
+        SceneManager.LoadScene("Level1Scene");
+        //SceneManager.LoadScene("InBetweenScene");
+
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }

@@ -62,11 +62,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\02_Scripts\BeamDestroyer.cs" />
+    <Compile Include="Assets\02_Scripts\BlockScripts\MoveableBlock.cs" />
+    <Compile Include="Assets\02_Scripts\BlockScripts\SliderBlock.cs" />
     <Compile Include="Assets\02_Scripts\Controllers\GameControllerScript.cs" />
     <Compile Include="Assets\02_Scripts\Controllers\Globals.cs" />
     <Compile Include="Assets\02_Scripts\Controllers\InBetweenScene.cs" />
     <Compile Include="Assets\02_Scripts\FadeInFadeOut.cs" />
-    <Compile Include="Assets\02_Scripts\MoveableBlock.cs" />
     <Compile Include="Assets\02_Scripts\Player\Move.cs" />
     <Compile Include="Assets\02_Scripts\SortingLayerExposer.cs" />
     <Compile Include="Assets\2DxFX\ExtraShaders\Examples\_2DC_ArrowSelection.cs" />
