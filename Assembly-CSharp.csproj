@@ -223,6 +223,8 @@
     <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Threshold.cs" />
     <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_Twist.cs" />
     <Compile Include="Assets\2DxFX\Scripts\2dxfx_AL\_2dxFX_AL_WoodFX.cs" />
+    <Compile Include="Assets\Game2DWaterKit\Demo\Scripts\GameController.cs" />
+    <Compile Include="Assets\Game2DWaterKit\Scripts\Game2DWater.cs" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_GrayScale.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\ShinyFX.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_PixelDie.shader" />
@@ -270,6 +272,7 @@
     <None Include="Assets\2DxFX\ExtraShaders\Shader\JpegCompressionStyle.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Offset.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorTint.shader" />
+    <None Include="Assets\Game2DWaterKit\Shaders\Game2DWaterKit Unlit.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Lerp2sprites.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\InfiniteZoom.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Mystic_Distortion_Additive.shader" />
@@ -283,6 +286,7 @@
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_EnergyBar.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Heat.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Outline.shader" />
+    <None Include="Assets\Game2DWaterKit\Shaders\Game2DWaterKit VertexLit.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\NoiseBlur_Vertical.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel8bitsBW.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Liquid.shader" />
@@ -319,6 +323,7 @@
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Liquid.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Twist.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_EnergyBar.shader" />
+    <None Include="Assets\Game2DWaterKit\Shaders\Game2DWaterKit VertexLit (Only Directional Lights).shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorHDR_Creation.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\RetroGB.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_SandFX.shader" />
@@ -344,6 +349,7 @@
     <None Include="Assets\2DxFX\Resources\_2dxFX_4Gradients.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Cartoon.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_WoodFX.shader" />
+    <None Include="Assets\Game2DWaterKit\Shaders\Game2DWaterKit PixelLit.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Zoom.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Pixel8bitsC64.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Fusion3Sprites.shader" />
@@ -360,6 +366,7 @@
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_BlackHole.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnTransparent.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Hologram.shader" />
+    <None Include="Assets\Game2DWaterKit\Shaders\Game2DWaterKit.cginc" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_CompressionFX.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_HSV.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_DesintegrationFX.shader" />

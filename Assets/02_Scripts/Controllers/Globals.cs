@@ -13,7 +13,7 @@ public class Globals : MonoBehaviour {
     public static float comboTimer;
 
     public static string printText = "score ";
-    public static string currentLevel = "level2";
+    public static string currentLevel = "level3";
 
     //Keyboard inputs dictionary
     public static Dictionary<string, KeyCode> inputK1 = new Dictionary<string, KeyCode>();
@@ -26,8 +26,6 @@ public class Globals : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        SceneManager.LoadScene("Level2Scene");
-        //SceneManager.LoadScene("InBetweenScene");
 
         //Setup controllers
 
@@ -55,7 +53,7 @@ public class Globals : MonoBehaviour {
         inputJ2.Add("action", "Fire2");
 
 
-        SceneManager.LoadScene("Level1Scene");
+        SceneManager.LoadScene("Level3Scene");
         //SceneManager.LoadScene("InBetweenScene");
 
     }

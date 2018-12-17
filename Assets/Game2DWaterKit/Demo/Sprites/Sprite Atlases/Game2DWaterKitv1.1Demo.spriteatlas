@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Game2DWaterKitv1.1Demo
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 1
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: b17d0dec0bd21be42b05ea0c3d615bf7, type: 3}
+    - {fileID: 2800000, guid: 3cd9962b200ffe04e8f96c0edb95ea54, type: 3}
+    - {fileID: 2800000, guid: b73a9474f543b1a4686fdbbef9f153e2, type: 3}
+    - {fileID: 2800000, guid: c67dc9ace53e18e418d1a855a327205d, type: 3}
+    - {fileID: 2800000, guid: 4e6dd69ca6d9cf54fa99d0b51a6e535c, type: 3}
+    - {fileID: 2800000, guid: 57cf9def9e7aa604e898c627fc0cb3a6, type: 3}
+    - {fileID: 2800000, guid: 9021a20309b95634cb1b4f8da4c8f645, type: 3}
+    - {fileID: 2800000, guid: a053600eb5646274680ef031203df60b, type: 3}
+    - {fileID: 2800000, guid: ee449794ed81825428d7af6dad1ac622, type: 3}
+    - {fileID: 2800000, guid: 0fe59a3975d38e243ac4570ff70117e0, type: 3}
+    - {fileID: 2800000, guid: bba4c959e6bcb1e4ab7b287d646a72f9, type: 3}
+    - {fileID: 2800000, guid: 3993808c7108a6f4ea2028423cf4f904, type: 3}
+    - {fileID: 2800000, guid: 99cba111c4349d74ab92b8753c8a7650, type: 3}
+    - {fileID: 2800000, guid: 6f22bc46b3cf1194e86a43011f4951fb, type: 3}
+    - {fileID: 2800000, guid: 92d2000e31688cf489e3c4683fb72e22, type: 3}
+    - {fileID: 2800000, guid: 228d75858f569404da0ad98cd02d8eb4, type: 3}
+    - {fileID: 2800000, guid: bf94d11c541a41143949db4178568ee1, type: 3}
+    - {fileID: 2800000, guid: f7332540e853a7a47b74642b5b545310, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f7332540e853a7a47b74642b5b545310, type: 3}
+  - {fileID: 21300000, guid: 99cba111c4349d74ab92b8753c8a7650, type: 3}
+  - {fileID: 21300000, guid: 9021a20309b95634cb1b4f8da4c8f645, type: 3}
+  - {fileID: 21300000, guid: b73a9474f543b1a4686fdbbef9f153e2, type: 3}
+  - {fileID: 21300000, guid: ee449794ed81825428d7af6dad1ac622, type: 3}
+  - {fileID: 21300000, guid: 228d75858f569404da0ad98cd02d8eb4, type: 3}
+  - {fileID: 21300000, guid: 6f22bc46b3cf1194e86a43011f4951fb, type: 3}
+  - {fileID: 21300000, guid: 0fe59a3975d38e243ac4570ff70117e0, type: 3}
+  - {fileID: 21300000, guid: bba4c959e6bcb1e4ab7b287d646a72f9, type: 3}
+  - {fileID: 21300000, guid: 3cd9962b200ffe04e8f96c0edb95ea54, type: 3}
+  - {fileID: 21300000, guid: bf94d11c541a41143949db4178568ee1, type: 3}
+  - {fileID: 21300000, guid: 3993808c7108a6f4ea2028423cf4f904, type: 3}
+  - {fileID: 21300000, guid: 4e6dd69ca6d9cf54fa99d0b51a6e535c, type: 3}
+  - {fileID: 21300000, guid: c67dc9ace53e18e418d1a855a327205d, type: 3}
+  - {fileID: 21300000, guid: b17d0dec0bd21be42b05ea0c3d615bf7, type: 3}
+  - {fileID: 21300000, guid: 92d2000e31688cf489e3c4683fb72e22, type: 3}
+  - {fileID: 21300000, guid: a053600eb5646274680ef031203df60b, type: 3}
+  - {fileID: 21300000, guid: 57cf9def9e7aa604e898c627fc0cb3a6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Vegetation_v2
+  - Potion_v4
+  - Diamond_v4
+  - Diamond_v0
+  - Potion_v0
+  - Vegetation_v0
+  - Rock_v0
+  - Potion_v1
+  - Potion_v2
+  - Chest_v0
+  - Vegetation_v1
+  - Potion_v3
+  - Diamond_v2
+  - Diamond_v1
+  - Background_v0
+  - Rock_v1
+  - PlatformAboveWater_v0
+  - Diamond_v3
+  m_Tag: Game2DWaterKitv1.1Demo
+  m_IsVariant: 0

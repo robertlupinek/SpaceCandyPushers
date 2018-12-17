@@ -61,7 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Controller Tester\Scripts\Editor\TestGamepadEditor.cs" />
+    <Compile Include="Assets\Game2DWaterKit\Scripts\Editor\Game2DWaterInspector.cs" />
+    <Compile Include="Assets\Game2DWaterKit\Scripts\Editor\Game2DWaterShaderGUI.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/lupinek/Documents/Projects/SpaceCandyPushers/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
