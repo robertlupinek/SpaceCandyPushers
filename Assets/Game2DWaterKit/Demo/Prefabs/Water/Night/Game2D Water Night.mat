@@ -85,10 +85,10 @@ Material:
     m_Colors:
     - _ReflectionNoiseScaleOffset: {r: 5, g: 15, b: 0, a: 0}
     - _RefractionNoiseScaleOffset: {r: 5.5, g: 3, b: 0, a: 0}
-    - _SurfaceColor: {r: 0.7812834, g: 0.9017628, b: 0.9150943, a: 0.5372549}
+    - _SurfaceColor: {r: 0.2731399, g: 0.5918031, b: 0.6226415, a: 0.5372549}
     - _SurfaceNoiseScaleOffset: {r: 1, g: 1, b: 0, a: 0}
     - _WaterColor: {r: 0.11, g: 0.64, b: 0.92, a: 0.25}
-    - _WaterColorGradientEnd: {r: 0.1254902, g: 1, b: 0.05490196, a: 0.1764706}
-    - _WaterColorGradientStart: {r: 0.1254902, g: 1, b: 0.78431374, a: 0.11764706}
+    - _WaterColorGradientEnd: {r: 0.29796752, g: 0.24110003, b: 0.3962264, a: 0.1764706}
+    - _WaterColorGradientStart: {r: 0.12549019, g: 0.29894, b: 1, a: 0.11764706}
     - _WaterEmissionColor: {r: 1, g: 1, b: 1, a: 0}
     - _WaterNoiseScaleOffset: {r: 4, g: 15, b: 0, a: 0}

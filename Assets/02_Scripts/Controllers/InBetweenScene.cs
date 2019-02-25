@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class InBetweenScene : MonoBehaviour {
 
@@ -11,6 +12,8 @@ public class InBetweenScene : MonoBehaviour {
 
     //Move to next level 
     private float nextLevelTimer = 2f;
+
+    public TextMeshPro scoreText;
 
     //Start moving to next level
     private bool startNextLevelTransition = false;
@@ -24,6 +27,9 @@ public class InBetweenScene : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+
+        //Draw the current score
+        scoreText.text = "SCORE: " + Globals.score.ToString();
 
         //Kick in the next scene transistion on key press
         if (Input.GetKey(Globals.inputK1["action"]) || Input.GetKey(Globals.inputK2["action"]) || Input.GetButtonDown(Globals.inputJ1["action"]) || Input.GetButtonDown(Globals.inputJ2["action"]) )
@@ -41,7 +47,16 @@ public class InBetweenScene : MonoBehaviour {
             nextLevelTimer -= Time.deltaTime;
             if ( nextLevelTimer <= 0)
             {
-                SceneManager.LoadScene("Level2Scene");
+                //Increase the numeric level counter by 1.
+                Globals.currentLevel += 1;
+
+                //Handle reaching the end of the levels
+                if (Globals.currentLevel > 4)
+                {
+                    Globals.currentLevel = 1;
+                }
+                //Load scene based on numeric level.
+                SceneManager.LoadScene(Globals.levelToScene[Globals.currentLevel]);
             }
         }
 

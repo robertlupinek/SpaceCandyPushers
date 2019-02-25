@@ -122,11 +122,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.857
+      value: 2.84
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.787
+      value: 1.814
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.z
@@ -173,7 +173,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.3063586
+      value: 1.5057089
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1400,11 +1400,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4823845482707872, guid: 8ffb1b8d6c8e80b43a601f2a0d3edbf2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.1039085
+      value: 6.05
       objectReference: {fileID: 0}
     - target: {fileID: 4823845482707872, guid: 8ffb1b8d6c8e80b43a601f2a0d3edbf2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.20143744
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 4823845482707872, guid: 8ffb1b8d6c8e80b43a601f2a0d3edbf2, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1434,7 +1434,15 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1488025818}
+      objectReference: {fileID: 616990219}
+    - target: {fileID: 4823845482707872, guid: 8ffb1b8d6c8e80b43a601f2a0d3edbf2, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 6.670621
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823845482707872, guid: 8ffb1b8d6c8e80b43a601f2a0d3edbf2, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.882161
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ffb1b8d6c8e80b43a601f2a0d3edbf2, type: 2}
   m_IsPrefabAsset: 0
@@ -1808,6 +1816,40 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
   m_IsPrefabAsset: 0
+--- !u!21 &616990219
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 2DxFX/Standard/Hologram2
+  m_Shader: {fileID: 4800000, guid: e4902c6983700bb45857a32e3d6365e1, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0
+    - _ColorMask: 15
+    - _Distortion: 1
+    - _Size: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &688267307
 Prefab:
   m_ObjectHideFlags: 0
@@ -2032,7 +2074,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.6739044
+      value: 7.751
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2076,6 +2118,10 @@ Prefab:
         type: 2}
       propertyPath: m_Color.b
       value: 0.019624433
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 8.712639
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
@@ -2883,11 +2929,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.419
+      value: 2.18
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.486
+      value: -2.5584
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2942,7 +2988,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalScale.x
-      value: 11.123974
+      value: 12.684668
       objectReference: {fileID: 0}
     - target: {fileID: 212196426890391336, guid: ec5e52697273a8e48974c7c49f03c6c9,
         type: 2}
@@ -3102,6 +3148,40 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
   m_IsPrefabAsset: 0
+--- !u!21 &988908577
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 2DxFX/Standard/Hologram2
+  m_Shader: {fileID: 4800000, guid: e4902c6983700bb45857a32e3d6365e1, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0
+    - _ColorMask: 15
+    - _Distortion: 1
+    - _Size: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1036572521
 Prefab:
   m_ObjectHideFlags: 0
@@ -3244,40 +3324,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c9dc57e1c636f43971432d84de2196, type: 2}
   m_IsPrefabAsset: 0
---- !u!21 &1193093544
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 2DxFX/Standard/Hologram2
-  m_Shader: {fileID: 4800000, guid: e4902c6983700bb45857a32e3d6365e1, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 0
-    - _ColorMask: 15
-    - _Distortion: 1
-    - _Size: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1223176096
 Prefab:
   m_ObjectHideFlags: 0
@@ -3360,7 +3406,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.48
+      value: -7.718
       objectReference: {fileID: 0}
     - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_LocalPosition.y
@@ -3408,6 +3454,10 @@ Prefab:
     - target: {fileID: 1955771468635782, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
       propertyPath: m_Name
       value: BlockerBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045880331377500, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 9.713001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5e52697273a8e48974c7c49f03c6c9, type: 2}
@@ -4110,6 +4160,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 82408893506708378, guid: 3c8549bbe8e7bd04b9235851a2a0a5c4,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a986b363afe71446935108e31276f1e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c8549bbe8e7bd04b9235851a2a0a5c4, type: 2}
   m_IsPrefabAsset: 0
@@ -4263,40 +4318,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.074}
---- !u!21 &1488025818
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 2DxFX/Standard/Hologram2
-  m_Shader: {fileID: 4800000, guid: e4902c6983700bb45857a32e3d6365e1, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 0
-    - _ColorMask: 15
-    - _Distortion: 1
-    - _Size: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1524818398
 Prefab:
   m_ObjectHideFlags: 0

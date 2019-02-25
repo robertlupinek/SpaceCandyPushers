@@ -612,9 +612,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Song: quality coats
+  m_Text: '
 
-    Artist: Vim
+    Music By: Vim
 
     URL: http://freemusicarchive.org/music/Vim/
 

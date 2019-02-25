@@ -30,9 +30,9 @@ public class GameControllerScript : MonoBehaviour {
     private bool levelChangeOnce = false;
 
     //Set up the level meta data
-    private Dictionary<string, float> timers = new Dictionary<string, float>();
-    private Dictionary<string, float> scoreGoals = new Dictionary<string, float>();
-    private Dictionary<string, float> timerGoals = new Dictionary<string, float>();
+    private Dictionary<int, float> timers = new Dictionary<int, float>();
+    private Dictionary<int, float> scoreGoals = new Dictionary<int, float>();
+    private Dictionary<int, float> timerGoals = new Dictionary<int, float>();
 
     //Audio sources
     //Sounds
@@ -41,14 +41,14 @@ public class GameControllerScript : MonoBehaviour {
     // Use this for initialization
     void Start () {
         //Setup times for each level
-        timers.Add("level1", 300);
-        timers.Add("level2", 300);
-        timers.Add("level3", 300);
-        timers.Add("level4", 300);
-        timers.Add("level5", 300);
-        timers.Add("level6", 300);
-        timers.Add("level7", 300);
-        timers.Add("level8", 300);
+        timers.Add(1, 300);
+        timers.Add(2, 300);
+        timers.Add(3, 300);
+        timers.Add(4, 300);
+        timers.Add(5, 300);
+        timers.Add(6, 300);
+        timers.Add(7, 300);
+        timers.Add(8, 300);
         levelTimer = timers[Globals.currentLevel];
         //Set up the Audio source
         source = GetComponent<AudioSource>();

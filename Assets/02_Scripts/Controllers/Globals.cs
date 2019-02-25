@@ -13,7 +13,8 @@ public class Globals : MonoBehaviour {
     public static float comboTimer;
 
     public static string printText = "score ";
-    public static string currentLevel = "level3";
+    public static int currentLevel = 1;
+    public static Dictionary<int, string> levelToScene = new Dictionary<int, string>();
 
     //Keyboard inputs dictionary
     public static Dictionary<string, KeyCode> inputK1 = new Dictionary<string, KeyCode>();
@@ -52,10 +53,18 @@ public class Globals : MonoBehaviour {
         inputJ2.Add("Vertical", "Vertical2");
         inputJ2.Add("action", "Fire2");
 
+        //Setup dictionary to match numeric level to scene
+        levelToScene.Add(1, "Level1Scene");
+        levelToScene.Add(2, "Level2Scene");
+        levelToScene.Add(3, "Level3Scene");
+        levelToScene.Add(4, "Level4Scene");
+        levelToScene.Add(5, "Level5Scene");
+        levelToScene.Add(6, "Level6Scene");
+        levelToScene.Add(7, "Level7Scene");
+        levelToScene.Add(8, "Level8Scene");
 
-        SceneManager.LoadScene("Level3Scene");
-        //SceneManager.LoadScene("InBetweenScene");
-
+        //Load scene based on numeric level
+        SceneManager.LoadScene(levelToScene[currentLevel]);
     }
 
     // Update is called once per frame

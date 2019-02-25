@@ -243,7 +243,7 @@
     <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorBrightness.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnFire.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Smoke.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\PixelExplosion.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_CircleFade.shader" />
@@ -296,7 +296,7 @@
     <None Include="Assets\2DxFX\ExtraShaders\Shader\CircleFade.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\CircleHole.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_ColorChange.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Cartoon.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_MetalFX.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Plasma.shader" />
@@ -319,7 +319,7 @@
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Animated_Twist.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorHSV.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Threshold.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Liquid.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Twist.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_EnergyBar.shader" />
@@ -382,7 +382,7 @@
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_GoldFX.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_PixelDie.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_WaterAndBackgroundDeluxe.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\DisolveHDR.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_PlasmaRainbow.shader" />
@@ -400,7 +400,7 @@
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Automatic2spritesLerp.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_FlameAdditive.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Threshold.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Fire.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnMetal.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Slim.shader" />
@@ -416,7 +416,7 @@
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Lightning.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_PlasmaShield.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\PixelisationXY.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\CompressionTintAdditive.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\InnerGlow.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\ColorRGB.shader" />
@@ -430,7 +430,7 @@
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Sharpness.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_HSV.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Hologram3.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Holographic.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Offset.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Offset.shader" />
@@ -440,7 +440,7 @@
     <None Include="Assets\2DxFX\ExtraShaders\Shader\GhostClipping.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnToInfinite.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_ColorRGB.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_BlurHQX.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Jelly.shader" />
@@ -457,8 +457,8 @@
     <None Include="Assets\2DxFX\Resources\_2dxFX_Frozen.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\RetroCGA.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Blur.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Shaders\TMPro.cginc" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Distortion_Additive.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_ColorRGB.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Hologram3.shader" />
@@ -469,13 +469,13 @@
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Emboss.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_PlasmaRainbow.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\HologramParasiteTint.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Shaders\TMP_SDF.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\TurnGold.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Distortion.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Lightning.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Material\txt.txt" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Sepia.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\BreakingMirror.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Fusion2SpritesAdditive.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Tilt_Down.shader" />
@@ -485,14 +485,14 @@
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Sepia.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_Twist.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Pixel8bitsBW.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Pinch.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Pixelisation.shader" />
     <None Include="Assets\2DxFX\Resources\_2dxFX_CompressionFX.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\HologramScanLineAdditive.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\HologramParasiteAdditive.shader" />
     <None Include="Assets\2DxFX\Resources\2dxfx_AL\_2dxFX_AL_Normal.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Animated_Zoom.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\BreakingGlass.shader" />
     <None Include="Assets\2DxFX\ExtraShaders\Shader\Blur.shader" />
