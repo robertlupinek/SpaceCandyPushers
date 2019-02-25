@@ -11,7 +11,7 @@ http://www.littleleafgames.com/projects/SpaceCandyPushers/
 
 ## Todo
 
-* Make an intro intro menu
+* Make an intro menu
 * Make end scenes
    * Good score 
    * Great score
